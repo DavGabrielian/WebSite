@@ -1,0 +1,129 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(159, 207, 250);
+    }
+
+   .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    }
+
+    .searchTerm {
+    width: 80%;
+    border: 3px solid rgb(38, 122, 247);
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+   }
+
+   .searchTerm:focus{
+   color: rgb(0, 0, 0);
+   }
+   
+   .searchButton {
+   width: 70px;
+   height: 36px;
+   border: 1px rgb(38, 122, 247);
+   background:rgb(38, 122, 247);
+   text-align: center;
+   color: #fff;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   font-size: 20px;
+  }
+  
+  .img {
+    background-color: rgb(38, 122, 247);
+  }
+
+   .wrap{
+   width: 80%;
+   position: absolute;
+   top: 10%;
+   left: 55%;
+   transform: translate(-50%, -40%);
+   }
+
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 80%;
+   position: absolute;
+   top: 4%;
+   left: 55%;
+   transform: translate(-50%, -40%);
+}
+
+li {
+  float: left ;
+}
+
+li a {
+  display:table;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(38, 122, 247);
+}
+
+.active {
+  background-color: rgb(38, 122, 247);
+}
+
+   .exp {
+    text-align: center;
+    padding: 60px;
+    
+    
+   }
+   .usdata img {
+       width: 100%;
+       height: 100%;
+       border-radius: 50%;
+       background-color: white;
+   }
+   .users{
+       width: 70% ;
+       margin: 0 auto;
+       display: grid;
+       grid-column-gap:30px;
+       grid-row-gap: 30px;
+       grid-template-columns: 25% 25% 25% 25%;
+       grid-template-columns: repeat(auto-fit,minmax(200px,1fr))
+   }
+   .user{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       border: 2px solid gray;
+       background-color: white;
+      
+   }
+   .usdata img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+   }
+   .usdata {
+       text-align: center;
+       background-color: white;
+       overflow: hidden;
+   }
+   .usdata p{
+        padding: 5px;
+        font-size: 15px;
+        background-color: white;
+   }
