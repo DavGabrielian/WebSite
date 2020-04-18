@@ -109,7 +109,7 @@ li a:hover:not(.active) {
        text-align: center;
        border: 2px solid gray;
        background-color: white;
-      
+       cursor: pointer;
    }
    .usdata img:hover{
     transform: scale(1.1);
